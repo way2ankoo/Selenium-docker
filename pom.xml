@@ -11,7 +11,7 @@
     <url>http://maven.apache.org</url>
 
     <properties>
-        <selenium.java.version>4.21.0</selenium.java.version>
+        <selenium.java.version>4.22.0</selenium.java.version>
         <logback.version>1.4.14</logback.version>
         <webdriver.manager.version>5.6.3</webdriver.manager.version>
         <testng.version>7.9.0</testng.version>
