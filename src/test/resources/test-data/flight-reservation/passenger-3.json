@@ -1,0 +1,11 @@
+{
+  "firstName": "abc",
+  "lastName": "rawa",
+  "email": "abc@rawat.com",
+  "password": "dock1",
+  "street": "3/4 anivet",
+  "city": "singapore",
+  "zip": "006785",
+  "passengersCount": "3",
+  "expectedPrice": "$1753 USD"
+}

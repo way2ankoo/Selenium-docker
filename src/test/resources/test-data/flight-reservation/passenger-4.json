@@ -1,0 +1,11 @@
+{
+  "firstName": "what",
+  "lastName": "rawate",
+  "email": "what@rawat.com",
+  "password": "kuber",
+  "street": "3/4 back street",
+  "city": "sydney",
+  "zip": "012345",
+  "passengersCount": "4",
+  "expectedPrice": "$2338 USD"
+}

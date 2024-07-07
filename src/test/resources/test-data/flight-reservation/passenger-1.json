@@ -1,0 +1,11 @@
+{
+  "firstName": "ankit",
+  "lastName": "rawat",
+  "email": "ankit@rawat.com",
+  "password": "docker",
+  "street": "123-street",
+  "city": "atlanta",
+  "zip": "564502",
+  "passengersCount": "1",
+  "expectedPrice": "$584 USD"
+}

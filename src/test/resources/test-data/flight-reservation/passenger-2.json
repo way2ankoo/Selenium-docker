@@ -1,0 +1,11 @@
+{
+  "firstName": "ras",
+  "lastName": "rawat",
+  "email": "ras@rawat.com",
+  "password": "docker1",
+  "street": "12/4-street",
+  "city": "alteric",
+  "zip": "560397",
+  "passengersCount": "2",
+  "expectedPrice": "$1169 USD"
+}
