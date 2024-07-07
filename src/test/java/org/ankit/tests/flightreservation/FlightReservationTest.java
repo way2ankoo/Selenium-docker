@@ -1,29 +1,22 @@
 package org.ankit.tests.flightreservation;
 
 import org.ankit.pages.flightreservation.*;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.ankit.tests.AbstractTest;
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-public class FlightReservationTest {
+public class FlightReservationTest extends AbstractTest {
 
-    private WebDriver driver;
     private String noOfPassengers;
     private String expectedPrice;
 
     @BeforeTest
     @Parameters({"noOfPassengers", "expectedPrice"})
-    public void setDriver(String noOfPassengers, String expectedPrice){
+    public void setParameters(String noOfPassengers, String expectedPrice){
         this.noOfPassengers = noOfPassengers;
         this.expectedPrice = expectedPrice;
-
-        //driver setup
-//        WebDriverManager.chromedriver().setup();
-        this.driver = new ChromeDriver();
     }
 
     @Test
@@ -67,10 +60,5 @@ public class FlightReservationTest {
         FlightConfirmationPage flightConfirmationPage = new FlightConfirmationPage(driver);
         Assert.assertTrue(flightConfirmationPage.isAt());
         Assert.assertEquals(flightConfirmationPage.getPrice(), expectedPrice);
-    }
-
-    @AfterTest
-    public void quitDriver(){
-        this.driver.quit();
     }
 }
